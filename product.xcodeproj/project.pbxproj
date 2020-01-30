@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		36BBDB7E23E305360081FD56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBDB7D23E305360081FD56 /* AppDelegate.swift */; };
 		36BBDB8023E305360081FD56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBDB7F23E305360081FD56 /* SceneDelegate.swift */; };
-		36BBDB8223E305360081FD56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBDB8123E305360081FD56 /* ViewController.swift */; };
 		36BBDB8523E305360081FD56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BBDB8323E305360081FD56 /* Main.storyboard */; };
 		36BBDB8823E305360081FD56 /* product.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36BBDB8623E305360081FD56 /* product.xcdatamodeld */; };
 		36BBDB8A23E305380081FD56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36BBDB8923E305380081FD56 /* Assets.xcassets */; };
 		36BBDB8D23E305380081FD56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36BBDB8B23E305380081FD56 /* LaunchScreen.storyboard */; };
+		36BBDB9523E306580081FD56 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BBDB9423E306580081FD56 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36BBDB7A23E305360081FD56 /* product.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = product.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36BBDB7D23E305360081FD56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36BBDB7F23E305360081FD56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		36BBDB8123E305360081FD56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36BBDB8423E305360081FD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36BBDB8723E305360081FD56 /* product.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = product.xcdatamodel; sourceTree = "<group>"; };
 		36BBDB8923E305380081FD56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36BBDB8C23E305380081FD56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36BBDB8E23E305380081FD56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36BBDB9423E306580081FD56 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				36BBDB7D23E305360081FD56 /* AppDelegate.swift */,
 				36BBDB7F23E305360081FD56 /* SceneDelegate.swift */,
-				36BBDB8123E305360081FD56 /* ViewController.swift */,
 				36BBDB8323E305360081FD56 /* Main.storyboard */,
 				36BBDB8923E305380081FD56 /* Assets.xcassets */,
 				36BBDB8B23E305380081FD56 /* LaunchScreen.storyboard */,
 				36BBDB8E23E305380081FD56 /* Info.plist */,
 				36BBDB8623E305360081FD56 /* product.xcdatamodeld */,
+				36BBDB9423E306580081FD56 /* TableViewController.swift */,
 			);
 			path = product;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36BBDB8223E305360081FD56 /* ViewController.swift in Sources */,
 				36BBDB8823E305360081FD56 /* product.xcdatamodeld in Sources */,
 				36BBDB7E23E305360081FD56 /* AppDelegate.swift in Sources */,
 				36BBDB8023E305360081FD56 /* SceneDelegate.swift in Sources */,
+				36BBDB9523E306580081FD56 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
